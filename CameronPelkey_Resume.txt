@@ -1,0 +1,48 @@
+Cameron D. Pelkey
+cameron.pelkey@gmail.com
+(571) 337-9654
+
+8601 Gateshead Road
+Alexandria, VA 22309
+
+
+OBJECTIVE
+A full-time position in the field of computer science with special interests in information processing, applications programming, and software and systems development.
+
+
+EDUCATION
+Bachelor of Science, Computer Science
+George Mason University, Fairfax, VA, May 2014
+Concentration: Computer Science
+GPA 3.18 in major, 3.18 overall
+
+
+COMPUTER SKILLS
+Languages & Software: Python, Java, C, C++, MYSQL, HTML, CSS, LATEX, Git, Subversion, UML, Eclipse, Microsoft Visual Studio, Xcode, PyCharm, NLTK
+Operating Systems: Windows, Unix.
+
+
+EXPERIENCE
+Undergraduate Researcher, January 2013 - Present
+Laboratory for Games and Intelligent Animation (GAIA), George Mason University
+- Assisting in research concerning the development of virtual humans
+and their behavior within a virtual environment.
+- Designed and implemented a modular system for the injection of natural language semantics into a virtual environment with funding from the Undergraduate Research Scholars Program, a competitive internal grant at Mason.
+
+Undergraduate Teaching Assistant, Spring 2011 - Spring 2014
+Computer Science Department, George Mason University
+- Assisted Graduate Teaching Assistants in presenting CS112 and CS211 course material in Python and Java, respectively.
+- Presented quizzes in lab.
+- Assisted in proctoring midterm and final exams.
+- Assisted students both during lab as well as individually outside of lab.
+
+
+PUBLICATIONS
+Pelkey, C. and Allbeck, J.M. Populating Virtual Semantic Environments. Computer Animation and Virtual Worlds Journal. Vol. 24 Iss. 3-4, pp. 405-412, May 2014.
+Pelkey, C. and Allbeck, J.M. Injecting Semantic Representation in a Virtual Environment. National Conference on Undergraduate Research, 2014.
+
+
+ACADEMIC HONORS
+George Mason Honors College Program, Fall 2010 - Spring 2014
+Intensive Undergraduate Research Scholars Program, Summer 2013
+Dean’s List of Distinguished Students, Fall 2010International Baccalaureate Diploma, Spring 2010
