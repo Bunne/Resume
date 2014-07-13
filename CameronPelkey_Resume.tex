@@ -1,20 +1,20 @@
-% LaTeX resume using res.cls
-\documentclass[margin]{res}
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font
-\setlength{\textwidth}{5.1in} % set width of text portion
+% % LaTeX resume using res.cls
+\documentclass[line, margin]{res}
+% \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+% \usepackage{newcent}   % uses new century schoolbook postscript font
+% \setlength{\textwidth}{5.1in} % set width of text portion
 
 \begin{document}
 
 % Center the name over the entire width of resume:
-\moveleft.5\hoffset\centerline{\large\bf Cameron D. Pelkey}
-\moveleft.5\hoffset\centerline{cameron.pelkey@gmail.com}
+% \moveleft.5\hoffset\centerline{\large\bf Cameron D. Pelkey}
+% \moveleft.5\hoffset\centerline{cameron.pelkey@gmail.com}
 % Draw a horizontal line the whole width of resume:
- \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
 % address begins here
 % Again, the address lines must be centered over entire width of resume:
-\address{8601 Gateshead Road \\ Alexandria, VA 22309 \\
-        (571) 337-9654 }
+\name{Cameron D. Pelkey}
+\address{8601 Gateshead Road, Alexandria, VA 22309}
+\address{Cell: 571.337.9654, Email: cameron.pelkey@gmail.com}
 
 
 \begin{resume}
@@ -22,48 +22,71 @@
 \section{OBJECTIVE}  A full-time position in the field of computer science with special interests in information processing, applications programming, and software and systems development.
 
 
-\section{EDUCATION} {\sl Bachelor of Science,} Computer Science \\
-		George Mason University, Fairfax, VA,
-		May 2014 \\
+\section{EDUCATION} {\sl Bachelor of Science,} Computer Science \hfill \textbf{May 2014}\\
+		George Mason University, Fairfax, VA\\
 		Concentration: Computer Science \\
-		GPA 3.18 in major, 3.18 overall
+		GPA 3.18
 
 
-\section{COMPUTER \\ SKILLS}
+\section{SKILLS}
 	{\sl Languages \& Software:} \begin{minipage}[t]{\textwidth}
-	Python, Java, C, C++, MYSQL, HTML, CSS, \LaTeX, Git,\\
+	C, C++, Java, Python, SQL, Bash, HTML, CSS, \LaTeX, Git,\\
 	Subversion, UML, Eclipse, Microsoft Visual Studio, Xcode, \\
-	PyCharm, NLTK
+	PyCharm, Vim, GDB, NLTK, Lex \& Yacc
 	\end{minipage}
 	{\sl Operating Systems:} \begin{minipage}[t]{\textwidth}
 	Windows, Unix.
 	\end{minipage}
 
-\section{EXPERIENCE}
-		{\sl Undergraduate Researcher} \hfill January 2013 - Present \\
-		Laboratory for Games and Intelligent Animation (GAIA), George Mason University
-		\begin{itemize}  \itemsep -2pt %reduce space between items
-			\item Currently assisting in research concerning the development of virtual humans and their behavior within a virtual environment.
-			\item Designed and implemented a modular system for the injection of natural language semantics into a virtual environment with funding from the Undergraduate Research Scholars Program, a competitive internal grant at Mason.
-		\end{itemize}
-		{\sl Undergraduate Teaching Assistant} \hfill Spring, Fall 2011, Fall 2012 - Spring 2014 \\
-		Computer Science Department, George Mason University
-		\begin{itemize}  \itemsep -2pt %reduce space between items
-			\item Assisted Graduate Teaching Assistants in presenting CS112 and CS211 course material in Python and Java, respectively.
-			\item Presented quizzes in lab.
-			\item Assisted in proctoring midterm and final exams.
-			\item Assisted students both during lab as well as individually outside of lab.
-		\end{itemize}
+\section{COURSEWORK}
+    \begin{ncolumn}{2}
+        Operating systems & Language Processing \& Analysys \\
+        Python, Java, C/Assembly & Software Project Management \\
+        Artificial Intelligence \& Metaheuristics
+    \end{ncolumn}
+
+\section{PROJECTS}
+    \textbf{Language Processing \hfill 2014 }
+    \begin{itemize}  \itemsep -2pt %reduce space between items
+        \item Developed a compiler for a subset of the Tiger programming language. Implementation included a lexer, a parser, a functioning type system, and functional assembly code generation.
+    \end{itemize}
+    \textbf{Information Security \& Encryption \hfill 2013 }
+    \begin{itemize}  \itemsep -2pt %reduce space between items
+        \item Designed and implemented a proof of concept program for copy-resistant, desktop photo-sharing.
+    \end{itemize}\textbf{Computer Vision \hfill 2013 }
+    \begin{itemize}  \itemsep -2pt %reduce space between items
+        \item Designed and implemented and efficient method for mapping highly articulate image objects to facial key points in real-time using Microsoft’s Kinect technology.
+    \end{itemize}
+    \textbf{Open Source \hfill 2012 }
+    \begin{itemize}  \itemsep -2pt %reduce space between items
+        \item Designed and implemented improvements to Violet-UML using a variety of build tools (including GNU Make and Apache Maven). Implementation included extensive use of Java Enterprise Edition.
+    \end{itemize}
+
+\section{WORK \\ EXPERIENCE}
+	\textbf{Undergraduate Researcher \hfill January 2013 - Present} \\
+	Laboratory for Games and Intelligent Animation (GAIA), George Mason University
+	\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Currently assisting in research concerning the development of virtual humans and their behavior within a virtual environment.
+		\item Designed and implemented a modular system for the injection of natural language semantics into a virtual environment with funding from the Undergraduate Research Scholars Program, a competitive internal grant at Mason.
+	\end{itemize}
+	\textbf{Undergraduate Teaching Assistant \hfill 2011, September 2012 - May 2014} \\
+	Computer Science Department, George Mason University
+	\begin{itemize}  \itemsep -2pt %reduce space between items
+		\item Assisted Graduate Teaching Assistants in presenting CS112 and CS211 course material in Python and Java, respectively.
+		\item Presented quizzes in lab.
+		\item Assisted in proctoring midterm and final exams.
+		\item Assisted students both during lab as well as individually outside of lab.
+	\end{itemize}
 
 \section{PUBLICATIONS}
-	Pelkey, C. and Allbeck, J.M. Populating Virtual Semantic Environments. Computer Animation and Virtual Worlds Journal. Vol. 24 Iss. 3-4, pp. 405-412, May 2014.		\\
+	Pelkey, C. and Allbeck, J.M. Populating Virtual Semantic Environments. Computer Animation and Virtual Worlds Journal. Vol. 24 Iss. 3-4, pp. 405-412, May 2014.\vspace{5pt}
 	Pelkey, C. and Allbeck, J.M. Injecting Semantic Representation in a Virtual Environment. National Conference on Undergraduate Research, 2014.
 
-\section{ACADEMIC \\ HONORS}
-	George Mason Honors College Program, Fall 2010 - Spring 2014	\\
-	Intensive Undergraduate Research Scholars Program, Summer 2013	\\	
-	Dean's List of Distinguished Students, Fall 2010	\\
-	International Baccalaureate Diploma, Spring 2010			\\
+\section{HONORS}
+	George Mason Honors College Program \hfill \textbf{Fall 2010 - Spring 2014}	\\
+	Intensive Undergraduate Research Scholars Program \hfill \textbf{Summer 2013}	\\
+	Dean's List of Distinguished Students \hfill \textbf{Fall 2010}	\\
+	International Baccalaureate Diploma \hfill \textbf{Spring 2010}			\\
 
 
 \end{resume}
